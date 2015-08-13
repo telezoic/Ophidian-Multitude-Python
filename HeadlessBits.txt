@@ -1,0 +1,24 @@
+	
+
+
+
+if you need a headles browser, install Selenium and PhantomJS and add the following to your requirements list in master.py:
+
+			from selenium import webdriver
+
+
+in your vendor script replace: 
+
+			r = requests.get(url[1])
+
+			soup = BeautifulSoup(r.text) 
+
+with: 
+
+			browser = webdriver.PhantomJS() [if you want a real browser -- switch PhantomJS() to Firefox() to do this - a useful debugging tool!]
+
+			browser.get(url[1])
+
+			soup=BeautifulSoup(browser.page_source)
+
+			browser.quit() [if you're driving a real browser]
