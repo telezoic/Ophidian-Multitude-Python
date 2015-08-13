@@ -2,19 +2,24 @@
 
 A python redux of Kristins Spurgin's excellent Ebook-Access-Checker!
   
-  -separate scripts describe each vendor
+    -separate scripts describe each vendor. Add/mod your own as needed.
   
-  -mod/edit and exisiting vendor script with your own vendor match points
-  
-  
-  -requires:BeautifulSoup/requests
-  
-  -from standard library: csv/time/re
+What you need:  
+
+	from bs4 import BeautifulSoup 
+
+	import csv
+
+	import time
+
+	import re 
+
+	import requests
   
 
 Instructions:
 
--place inquisitor.py and the vendor scripts in the same directory
+-place inquisitor.py and the vendor scripts in the same directory on your machine
 
 -run inquisitor.py from the terminal > name your vendor [script.py] > add input .csv > add output.csv
 
