@@ -3,6 +3,7 @@
 A python redux of Kristins Spurgin's excellent Ebook-Access-Checker!
   
   -separate scripts describe each vendor
+  
   -mod/edit and exisiting vendor script with your own vendor match points
   
   
