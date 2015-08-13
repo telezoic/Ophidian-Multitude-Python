@@ -7,14 +7,9 @@ A python redux of Kristins Spurgin's excellent Ebook-Access-Checker!
   -mod/edit and exisiting vendor script with your own vendor match points
   
   
-  -requires: 
-  BeautifulSoup
-  requests
+  -requires:BeautifulSoup/requests
   
-  -from standard library
-  csv
-  time
-  re
+  -from standard library: csv/time/re
   
 
 Instructions:
