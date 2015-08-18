@@ -1,6 +1,6 @@
 # Inquisitor-Python
 
-A python redux of Kristins Spurgin's excellent Ebook-Access-Checker!
+A python (2.7) redux of Kristins Spurgin's excellent Ebook-Access-Checker!
 
 -separate scripts describe each vendor. Add/mod your own as needed.
   
