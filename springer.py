@@ -21,7 +21,7 @@ for url in urls:
 		count += 1
 	elif soup.find_all("title", text = re.compile("Deleted DOI")):
 		print str(count) +  " of " + str(num_lines) + " | " + "Deleted DOI!" + " | " + url[1] + " | " + url[0]
-		outurls.writerow([url[0], url[1], "Deleted DOI!"])  #some errors move to js pages - and the script breaks  [DOI / Page not found]
+		outurls.writerow([url[0], url[1], "Deleted DOI!"]) 
 		count += 1	
 	elif soup.find_all("div", id = "error"):
 		print str(count) +  " of " + str(num_lines) + " | " + "Page not found!" + " | " + url[1] + " | " + url[0]
