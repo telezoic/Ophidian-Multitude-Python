@@ -1,4 +1,4 @@
-#TandF
+#TandF [Taylor and Francis]
 
 for url in urls:
 
