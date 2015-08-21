@@ -1,4 +1,4 @@
-#curio
+#curio [CBC Curio]
 
 
 for url in urls:
