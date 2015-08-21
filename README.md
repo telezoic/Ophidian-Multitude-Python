@@ -50,15 +50,15 @@ Ensure there are no headers in the .csv
 
 3: Place inquisitor.py and the vendor scripts in the same directory on your machine.
 
-2: Run inquisitor.py from the terminal > name your vendor [vendor.py],  input.csv,  output.csv
+4: Run inquisitor.py from the terminal > name your vendor [vendor.py],  input.csv,  output.csv
 
-4: The script will write the access message to the third column of the .csv
+5: The script will write the access message to the third column of the .csv
 
-5: Terminal display will count and display access messages + urls and titles for access failures.
+6: Terminal display will count and display access messages + urls and titles for access failures.
 
-6: Terminal display will write out errors.
+7: Terminal display will write out errors.
 
-7: When the script is complete, the terminal will write out the total run time.
+8: When the script is complete, the terminal will write out the total run time.
 
 ####Roadmap####
 
