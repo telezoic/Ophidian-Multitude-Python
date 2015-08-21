@@ -13,7 +13,7 @@ A python (2.7) redux of Kristins Spurgin's excellent <a href="https://github.com
 4: More verbose console logging
   
 	
-####What do you need?####  
+####What do you need?
 
 	from bs4 import BeautifulSoup 
 
