@@ -7,17 +7,6 @@ import time
 import re 
 import requests 
 
-
-#Instructions:
-
-#place inquisitor.py and the vendor scripts in the same directory
-#run inquisitor.py from the terminal > name your vendor [script.py] > add input .csv > add output.csv
-#no headers in the .csv input file. The first column url[0] = title, the second column url[1] = url. 
-#the script will write the access message to the third column of the .csv
-#terminal display will count and display access messages + urls and titles for access failures
-
-
-
 vendorfile = raw_input("Enter the name of vendor file . . . ")
 csvfile = raw_input("Enter the name of the csv input file . . .")
 csvoutfile = raw_input("Enter the name of the csv output file . . .")
