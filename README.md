@@ -2,7 +2,15 @@
 
 A python (2.7) redux of Kristins Spurgin's super excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
 
-*What's different this time . . .*
+####What it does
+
+Scrapes ebook/streaming video landing pages and confirms instititional access based on html source code. 
+
+####What it doesn't . . . 
+
+Trigger DDA autopurchases/short-term loans
+
+####*What's different this time . . .*
 
 1: Speed. The Inquisitor-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser.
 
@@ -12,7 +20,7 @@ A python (2.7) redux of Kristins Spurgin's super excellent <a href="https://gith
 
 4: More verbose console logging
 
-5: Benchmark runtime
+5: Runtime benchmark
   
 	
 ####What do you need?
@@ -35,7 +43,7 @@ BeautifulSoup and requests are not part of the standard Python library. So:
 ####Instructions:####
 
 1: Create a .csv with a list of titles in the first column 	url[0] 
-and urls in the second column 	url[1] 
+and urls in the second column 	url[1]. Remove your EZproxy/Authentication prefix from the urls.
 Ensure there are no headers in the .csv
 
 2: Mod/add your own vendor scripts as needed based on the apprpropriate matching syntax [from your vendor's html source code].
