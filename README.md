@@ -1,6 +1,6 @@
 ### Inquisitor-Python###
 
-A python (2.7) redux of Kristins Spurgin's excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
+A python (2.7) redux of Kristins Spurgin's super excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
 
 *What's different this time . . .*
 
@@ -11,6 +11,8 @@ A python (2.7) redux of Kristins Spurgin's excellent <a href="https://github.com
 3: Separate scripts describe each vendor. Add/mod your own as needed.
 
 4: More verbose console logging
+
+5: Benchmark runtime
   
 	
 ####What do you need?
@@ -36,7 +38,7 @@ BeautifulSoup and requests are not part of the standard Python library. So:
 and urls in the second column 	url[1] 
 Ensure there are no headers in the .csv
 
-2: Mod/add your own vendor scripts as needed based on the the apprpropriate matching syntax [from yor vendor's html source code].
+2: Mod/add your own vendor scripts as needed based on the apprpropriate matching syntax [from your vendor's html source code].
 
 3: Place inquisitor.py and the vendor scripts in the same directory on your machine.
 
@@ -47,6 +49,8 @@ Ensure there are no headers in the .csv
 5: Terminal display will count and display access messages + urls and titles for access failures.
 
 6: Terminal display will write out errors.
+
+7: When the script is complete, the terminal will write out the total run time.
 
 ####Roadmap####
 
