@@ -1,11 +1,19 @@
-# Inquisitor-Python
+### Inquisitor-Python###
 
-A python (2.7) redux of Kristins Spurgin's excellent Ebook-Access-Checker!
+A python (2.7) redux of Kristins Spurgin's excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
 
--separate scripts describe each vendor. Add/mod your own as needed.
+*What's different this time . . .*
+
+1: Speed. The Inquisitor-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser.
+
+2: User interface is a trio of raw inputs, instead of a single line.
+
+3: Separate scripts describe each vendor. Add/mod your own as needed.
+
+4: More verbose console logging
   
 	
-What you need:  
+####What do you need?####  
 
 	from bs4 import BeautifulSoup 
 
@@ -15,17 +23,32 @@ What you need:
 
 	import re 
 
-	import requests
+	import requests 
+	
+BeautifulSoup and requests are not part of the standard Python library. So:
+
+	pip install beautifulsoup4
+	pip install requests
   
+####Instructions:####
 
-Instructions:
+1: Create a .csv with a list of titles in the first column 	url[0] 
+and urls in the second column 	url[1] 
+Ensure there are no headers in the .csv
 
--place inquisitor.py and the vendor scripts in the same directory on your machine
+2: Mod/add your own vendor scripts as needed based on the the apprpropriate matching syntax [from yor vendor's html source code].
 
--run inquisitor.py from the terminal > name your vendor [script.py] > add input .csv > add output.csv
+3: Place inquisitor.py and the vendor scripts in the same directory on your machine.
 
--no headers in the .csv input file. The first column url[0] = title, the second column url[1] = url. 
+2: Run inquisitor.py from the terminal > name your vendor [vendor.py],  input.csv,  output.csv
 
--the script will write the access message to the third column of the .csv
+4: The script will write the access message to the third column of the .csv
 
--terminal display will count and display access messages + urls and titles for access failures
+5: Terminal display will count and display access messages + urls and titles for access failures.
+
+6: Terminal display will write out errors.
+
+####Roadmap####
+
+1: Windows testing [it's all OSX so far]
+
