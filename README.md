@@ -60,6 +60,9 @@ Ensure there are no headers in the .csv
 
 8: When the script is complete, the terminal will write out the total run time.
 
+####To Do
+-add Selenium/PhantomJS instructions to readme.md [for ebrary.py]
+
 ####Roadmap####
 
 1: Windows testing [it's all OSX so far]
