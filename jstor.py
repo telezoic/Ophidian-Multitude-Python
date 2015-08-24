@@ -6,7 +6,7 @@ for url in urls:
 
 	soup = BeautifulSoup(r.text)
 	
-	if soup.find_all("a", class_= "button pdflink"):
+	if soup.find_all("a", class_= "pdfLink tt-track-nolink"):
  		print str(count) +  " of " + str(num_lines) + " | " + "Right On!" 
  		outurls.writerow([url[0], url[1], "Right On!"])
  		count += 1

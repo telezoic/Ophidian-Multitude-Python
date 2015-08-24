@@ -1,12 +1,18 @@
 #ebrary
+#here we call Selenium/PhantomJS
 
  
 
 for url in urls:
 
-	r = requests.get(url[1])
 
-	soup = BeautifulSoup(r.text)
+	browser = webdriver.PhantomJS() 
+
+	browser.get(url[1])
+
+	soup=BeautifulSoup(browser.page_source)
+
+
 		
 	if soup.find_all(text = re.compile("Your institution has unlimited access to this book")):
  		print str(count) +  " of " + str(num_lines) + " | " + "Right On!" 

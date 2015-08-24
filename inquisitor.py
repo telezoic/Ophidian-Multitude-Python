@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup
 import csv
 import time
 import re 
-import requests 
+import requests
+from selenium import webdriver
 
 vendorfile = raw_input("Enter the name of vendor file . . . ")
 csvfile = raw_input("Enter the name of the csv input file . . .")
