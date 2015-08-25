@@ -12,7 +12,7 @@ Trigger DDA autopurchases/short-term loans
 
 ####*What's different this time . . .*
 
-1: Speed. The Inquisitor-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser. [note: ebrary.py calls for a headless browser]
+1: Speed. The Inquisitor-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser. [note: The javascript heavy Proquest/ebrary pages call for a headless browser, you may have other vendors with similar demands]
 
 2: User interface is a trio of raw inputs, instead of a single line.
 
@@ -43,7 +43,7 @@ BeautifulSoup, requests, and Selenium are not part of the standard Python librar
 	pip install requests
 	pip install selenium
 	
-You can get PhantomJS <a href="http://phantomjs.org/">here</a>
+You can get PhantomJS <a href="http://phantomjs.org/">here.</a>
   
 ####Instructions:####
 
