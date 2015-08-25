@@ -8,6 +8,7 @@ import re
 import requests
 from selenium import webdriver
 
+
 vendorfile = raw_input("Enter the name of vendor file . . . ")
 csvfile = raw_input("Enter the name of the csv input file . . .")
 csvoutfile = raw_input("Enter the name of the csv output file . . .")
