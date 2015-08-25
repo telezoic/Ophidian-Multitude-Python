@@ -1,5 +1,6 @@
 #jstor
 
+
 for url in urls:
 
 	r = requests.get(url[1])
@@ -18,6 +19,4 @@ for url in urls:
 		print str(count) +  " of " + str(num_lines) + " | " + "Look into this . . . " + " | " + url[1]  + " | " + url[0]
 		outurls.writerow([url[0], url[1], "Look into this . . ."])  
 		count += 1
-
-
 
