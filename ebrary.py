@@ -1,7 +1,6 @@
 #ebrary
 #here we call Selenium/PhantomJS
 
- 
 
 for url in urls:
 
@@ -11,7 +10,6 @@ for url in urls:
 	browser.get(url[1])
 
 	soup=BeautifulSoup(browser.page_source)
-
 
 		
 	if soup.find_all(text = re.compile("Your institution has unlimited access to this book")):
