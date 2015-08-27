@@ -1,6 +1,6 @@
 ### Inquisitor-Python###
 
-A python (2.7) redux of Kristins Spurgin's super excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
+A python (2.7) redux of Kristina Spurgin's super excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
 
 ####What it does
 
