@@ -1,4 +1,4 @@
-### Inquisitor-Python###
+###Ophidian-Multitude-Python###
 
 A python (2.7) redux of Kristina Spurgin's super excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
 
@@ -12,7 +12,7 @@ Trigger DDA autopurchases/short-term loans
 
 ####*What's different this time . . .*
 
-1: Speed. The Inquisitor-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser. [note: The javascript heavy Proquest/ebrary pages call for a headless browser, you may have other vendors with similar demands]
+1: Speed. The Ophidian-Multitude-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser. [note: The javascript heavy Proquest/ebrary pages call for a headless browser, you may have other vendors with similar demands]
 
 2: User interface is a trio of raw inputs, instead of a single line.
 
@@ -53,9 +53,9 @@ Ensure there are no headers in the .csv
 
 2: Mod/add your own vendor scripts as needed based on the apprpropriate matching syntax [from your vendor's html source code].
 
-3: Place inquisitor.py and the vendor scripts in the same directory on your machine.
+3: Place multitude.py and the vendor scripts in the same directory on your machine.
 
-4: Run inquisitor.py from the terminal > name your vendor [vendor.py],  input.csv,  output.csv
+4: Run multitude.py from the terminal > name your vendor [vendor.py],  input.csv,  output.csv
 
 5: The script will write the access message to the third column of the .csv
 
