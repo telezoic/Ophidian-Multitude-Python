@@ -2,6 +2,9 @@
 
 A python (2.7) redux of Kristina Spurgin's super excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
 
+
+![](http://www2.viu.ca/ds-dev/gitimages/multitude.png)
+
 ####What it does
 
 Scrapes ebook/streaming video landing pages and confirms instititional access based on html source code. 
