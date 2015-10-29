@@ -68,6 +68,8 @@ Ensure there are no headers in the .csv
 
 8: When the script is complete, the terminal will write out the total run time.
 
+Note: Taylor and Francis blocked our machine IP after processing 25 URLs in < 5 min. I contacted them and told them what we we're doing and . . . wait for it . . . they have have agreed to let us process all ~19K of or T&F urls in a predefined window of time where we will not be blocked!
+
 ####Roadmap####
 
 1: Windows testing [it's all OSX so far]
