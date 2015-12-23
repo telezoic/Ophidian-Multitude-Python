@@ -72,5 +72,5 @@ Note: Taylor and Francis blocked our machine IP after processing 25 URLs in < 5 
 
 ####Roadmap####
 
-1: Windows testing [it's all OSX so far]
+~~1: Windows testing [it's all OSX so far]~~
 
