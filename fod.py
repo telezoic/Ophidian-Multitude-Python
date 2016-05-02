@@ -10,7 +10,7 @@ for url in urls:
 	soup = BeautifulSoup(r.text)
 	
 	
-	if soup.find_all("div", class_= "now-playing-div span-8"):
+	if soup.find_all("i", class_= "fa fa-play") or soup.find_all(text = re.compile("Show Segments")):
  		print str(count) +  " of " + str(num_lines) + " | " + "Right On!" 
  		outurls.writerow([url[0], url[1], "Right On!"])
  		count += 1
