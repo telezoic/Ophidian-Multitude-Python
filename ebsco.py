@@ -1,12 +1,14 @@
 #ebsco
+#here we call Selenium/PhantomJS
 
 for url in urls:
 
 
+	browser = webdriver.PhantomJS() 
 
-	r = requests.get(url[1])
+	browser.get(url[1])
 
-	soup = BeautifulSoup(r.text)
+	soup=BeautifulSoup(browser.page_source)
 		
 	if soup.find_all("a", class_= "record-type pdf-ft") or soup.find_all("a", class_= "record-type epub"):
  		print str(count) +  " of " + str(num_lines) + " | " + "Right On!" 
