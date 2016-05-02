@@ -15,7 +15,7 @@ Trigger DDA autopurchases/short-term loans
 
 ####*What's different this time . . .*
 
-1: Speed. The Ophidian-Multitude-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser. [note: The javascript heavy Proquest/ebrary pages call for a headless browser, you may have other vendors with similar demands]
+1: Speed. The Ophidian-Multitude-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser. [note: The javascript heavy Proquest/ebrary and the Ebsco pages call for a headless browser, you may have other vendors with similar demands]
 
 2: User interface is a trio of raw inputs, instead of a single line.
 
