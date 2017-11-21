@@ -1,7 +1,5 @@
 #adam [adam matthew digital]
 
-
-
 for url in urls:
 
 
