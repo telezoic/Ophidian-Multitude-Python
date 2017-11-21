@@ -19,5 +19,3 @@ for url in urls:
 		outurls.writerow([url[0], url[1], "Look into this . . ."])  
 		count += 1
 
-
-
