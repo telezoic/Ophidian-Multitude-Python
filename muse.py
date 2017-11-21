@@ -5,7 +5,7 @@ for url in urls:
 
 	r = requests.get(url[1])
 
-	soup = BeautifulSoup(r.text. 'lxml')
+	soup = BeautifulSoup(r.text, "lxml")
 		
 	if soup.find_all("span", class_= "access_yes"):
  		print str(count) +  " of " + str(num_lines) + " | " + "Right On!" 
