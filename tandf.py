@@ -5,7 +5,7 @@ for url in urls:
 	
 	r = requests.get(url[1])
 
-	soup = BeautifulSoup(r.text)
+	soup = BeautifulSoup(r.text. 'lxml')
 
 
 	if soup.find_all("a", text = re.compile("Download a copy")) or soup.find_all("a", text = re.compile("Quick access")):

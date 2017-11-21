@@ -9,7 +9,7 @@ for url in urls:
 
 	r = requests.get(url[1])
 
-	soup = BeautifulSoup(r.text)
+	soup = BeautifulSoup(r.text. 'lxml')
 
 	if soup.find_all("a", class_= "webtrekk-track pdf-link"): 
  		print str(count) +  " of " + str(num_lines) + " | " + "Right On!" 

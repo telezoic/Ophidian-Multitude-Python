@@ -45,6 +45,7 @@ BeautifulSoup, requests, and Selenium are not part of the standard Python librar
 	pip install beautifulsoup4
 	pip install requests
 	pip install selenium
+	pip install lxml
 	
 You can get PhantomJS <a href="http://phantomjs.org/">here.</a>
   
@@ -58,7 +59,7 @@ Ensure there are no headers in the .csv
 
 3: Place multitude.py and the vendor scripts in the same directory on your machine.
 
-4: Run multitude.py from the terminal > name your vendor [vendor.py],  input.csv,  output.csv
+4: Run `python multitude.py` from the terminal > name your vendor [vendor.py],  input.csv,  output.csv
 
 5: The script will write the access message to the third column of the .csv
 
