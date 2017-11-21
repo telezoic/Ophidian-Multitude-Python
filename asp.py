@@ -25,13 +25,3 @@ for url in urls:
 		count += 1
 
 
-
-
-
-
-
-
-
-
-
-
