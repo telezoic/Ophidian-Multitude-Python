@@ -1,19 +1,19 @@
-###Ophidian-Multitude-Python###
+# Ophidian-Multitude-Python #
 
 A python (2.7) redux of Kristina Spurgin's super excellent <a href="https://github.com/UNC-Libraries/Ebook-Access-Checker">Ebook-Access-Checker!</a>
 
 
 ![](http://www2.viu.ca/ds-dev/gitimages/multitude.png)
 
-####What it does
+## What it does
 
 Scrapes ebook/streaming video landing pages and confirms instititional access based on html source code. 
 
-####What it doesn't . . . 
+## What it doesn't . . . 
 
 Trigger DDA autopurchases/short-term loans
 
-####*What's different this time . . .*
+## *What's different this time . . .*
 
 1: Speed. The Ophidian-Multitude-Python runs on BeautifulSoup and Requests. Speed is much improved in the absence of a headless browser. [note: The javascript heavy Proquest/ebrary and the Ebsco pages call for a headless browser, you may have other vendors with similar demands]
 
@@ -26,7 +26,7 @@ Trigger DDA autopurchases/short-term loans
 5: Runtime benchmark
   
 	
-####What do you need?
+#### What do you need?
 
 	from bs4 import BeautifulSoup 
 
@@ -49,7 +49,7 @@ BeautifulSoup, requests, and Selenium are not part of the standard Python librar
 	
 You can get PhantomJS <a href="http://phantomjs.org/">here.</a>
   
-####Instructions:####
+#### Instructions: ####
 
 1: Create a .csv with a list of titles in the first column 	url[0] 
 and urls in the second column 	url[1]. Remove your EZproxy/Authentication prefix from the urls.
